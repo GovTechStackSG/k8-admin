@@ -1,7 +1,7 @@
 kind: RoleBinding
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
-  name: group-dev-role-binding
+  name: ndi-group-dev-role-binding
 subjects:
   - kind: Group
     name: /ndi-dev-role

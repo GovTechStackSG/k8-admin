@@ -2,9 +2,8 @@ kind: Role
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
   namespace: default
-  name: group-dev-role
+  name: ndi-group-dev-role
 rules:
 - apiGroups: ["*"]
   resources: ["pods"]
   verbs: ["*"]
-
