@@ -7,5 +7,5 @@ subjects:
     name: /ndi-dev-role
 roleRef:
   kind: Role
-  name: ndi-group-dev-role
+  name: group-dev-role
   apiGroup: rbac.authorization.k8s.io
