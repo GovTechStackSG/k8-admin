@@ -5,5 +5,5 @@ metadata:
   name: group-dev-role
 rules:
 - apiGroups: ["*"]
-  resources: ["pods,roles,rolebindings"]
+  resources: ["pods,services,roles,rolebindings"]
   verbs: ["*"]
