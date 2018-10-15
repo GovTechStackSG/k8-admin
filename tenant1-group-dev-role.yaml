@@ -5,5 +5,5 @@ metadata:
   name: ndi-group-dev-role
 rules:
 - apiGroups: ["*"]
-  resources: ["pods"]
+  resources: ["pods,services,deployments,roles,rolebindings"]
   verbs: ["*"]
